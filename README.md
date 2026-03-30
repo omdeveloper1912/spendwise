@@ -1,20 +1,58 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# SpendWise - Personal Expense & Budget Tracker
 
-# Run and deploy your AI Studio app
+SpendWise is a clean, modern, and intuitive personal finance manager built with React, Vite, and Tailwind CSS. It helps you track your expenses, manage your income, and stay on top of your monthly budgets with real-time visualizations.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/bdabba0f-d82f-4f21-adc3-84be092b0429
+- **Dashboard Overview**: Get an immediate snapshot of your total balance, income, and expenses in INR (₹).
+- **Interactive Charts**:
+  - **Monthly Overview**: Bar chart comparing income vs. expenses over the last 6 months.
+  - **Category Breakdown**: Pie chart showing your spending distribution across different categories.
+- **Transaction Management**:
+  - Log income and expenses with ease.
+  - Categorize transactions (Food, Shopping, Salary, etc.).
+  - Delete transactions with a single click.
+- **Budgeting System**:
+  - Set monthly spending limits for specific categories.
+  - Real-time progress bars show how much of your budget is remaining.
+  - Visual alerts (color changes) when you approach or exceed your budget.
+- **Local Persistence**: All data is saved to your browser's `localStorage`, ensuring your data stays with you.
+- **Responsive Design**: Fully optimized for both desktop and mobile viewing.
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+- **Frontend**: React 19, TypeScript
+- **Styling**: Tailwind CSS 4
+- **Animations**: Motion (formerly Framer Motion)
+- **Charts**: Recharts
+- **Icons**: Lucide React
+- **Date Handling**: date-fns
 
+## 📦 Installation & Setup
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+To run this project locally:
+
+1. **Clone the repository**:
+   ```bash
+   git clone <your-repo-url>
+   cd spendwise
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**:
+   ```bash
+   npm run build
+   ```
+
+## 📝 License
+
+This project is licensed under the Apache-2.0 License.
