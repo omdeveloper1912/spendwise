@@ -381,7 +381,7 @@ export default function App() {
                         </div>
                         <div>
                           <p className="font-medium text-slate-900">{t.description || t.category}</p>
-                          <p className="text-xs text-slate-500">{format(parseISO(t.date), 'MMM dd, yyyy')} • {t.category}</p>
+                          <p className="text-xs text-slate-500">{format(parseISO(t.date), 'dd/MM/yyyy')} • {t.category}</p>
                         </div>
                       </div>
                       <div className="flex items-center gap-3">
