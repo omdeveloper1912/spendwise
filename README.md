@@ -53,6 +53,27 @@ To run this project locally:
    npm run build
    ```
 
+### 🖥️ Desktop Application (Linux/Windows)
+
+You can also package SpendWise as a standalone desktop application using Electron:
+
+1. **Run in development mode**:
+   ```bash
+   npm run electron:dev
+   ```
+
+2. **Build for Linux (.AppImage, .deb)**:
+   ```bash
+   npm run electron:build
+   ```
+
+3. **Build for Windows (.exe)**:
+   ```bash
+   npm run electron:build:all
+   ```
+
+The packaged applications will be available in the `release/` directory.
+
 ## 📝 License
 
 This project is licensed under the Apache-2.0 License.
